@@ -1,10 +1,4 @@
-/*import { Configuration, OpenAIApi } from 'openai';
-const configuration = new Configuration({
-    apiKey: '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',
-});
-const openai = new OpenAIApi(configuration);*/
 
-import { Configuration } from "openai";
 import { ResDetailPokemon } from "~/interfaces/res-detail-pokemon";
 
 export const getChatGPTResponse = async (id: string):Promise<string> => {

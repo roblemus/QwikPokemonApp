@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { QwikLogo } from "../../icons/qwik";
 import styles from "./navbar.module.css";
-import { Link, useNavigate } from "@builder.io/qwik-city";
+import { Link } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
