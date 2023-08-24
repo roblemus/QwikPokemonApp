@@ -4,7 +4,6 @@ import styles from "./navbar.module.css";
 import { Link, useNavigate } from "@builder.io/qwik-city";
 
 export default component$(() => {
-  const nav = useNavigate();
   return (
     <header class={styles.header}>
       <div class={["container", styles.wrapper]}>

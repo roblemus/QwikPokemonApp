@@ -12,12 +12,13 @@ export const useLoginUserActions = routeAction$((data, {cookie, redirect})=>{
             success: true,
             jwt: 'Mi JWT'
         }
-    }else
-        var resp = (email==='rllr.money@gmail.com') ? 'Contraseña incorrecta' : 'Email Incorrecto';
+    }else{
+        const resp = (email==='rllr.money@gmail.com') ? 'Contraseña incorrecta' : 'Email Incorrecto';
         return{
             success: false,
             respuesta: resp
         }
+    }
 
 }, zod$(
     {

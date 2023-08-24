@@ -1,5 +1,4 @@
-import { component$, useComputed$, useContext, useSignal, useTask$ } from "@builder.io/qwik"
-import { PokemonGameContext, PokemonGameState } from "~/context/pokemon";
+import { component$, useComputed$, useSignal, useTask$ } from "@builder.io/qwik"
 
 interface Props{
     id: number | string;
